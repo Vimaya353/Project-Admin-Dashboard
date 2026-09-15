@@ -45,11 +45,14 @@ body {
 .sidebar li:hover {
     opacity:0.75;
 }
+
 .header {
     grid-column: 2;
     background-color:#e2e8f0;
     display:grid;
     padding:20px 40px;
+    gap:20px;
+    grid-template-rows: auto auto;
 }
 
 .main-content {
@@ -112,4 +115,47 @@ body {
     align-items:center;
     gap:15px;
     font-weight:600;
+}
+
+.greeting {
+    display:flex;
+    align-items:center;
+    gap: 15px;
+}
+
+.greeting p {
+    font-size:14px;
+}
+
+.greeting h2 {
+    font-size:22px;
+}
+
+.avatar {
+    font-size:40px;
+}
+
+.bottom-row {
+    display:grid;
+    grid-template-columns: 1fr auto;
+    align-items:center;
+}
+
+.actions {
+    display:flex;
+    gap:15px;
+}
+
+.actions button {
+    padding:10px 20px;
+    border:none;
+    border-radius:20px;
+    background-color:#2563eb;
+    color:white;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.actions button:hover {
+    opacity:0.8;
 }
