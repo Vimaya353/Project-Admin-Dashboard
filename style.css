@@ -55,10 +55,6 @@ body {
     grid-template-rows: auto auto;
 }
 
-.main-content {
-    grid-column: 2;
-    background-color: #f8fafc;
-}
 
 .logo {
     display:flex;
@@ -167,6 +163,8 @@ body {
     gap:20px;
     padding:25px;
     background-color: #e2e8f0;
+    grid-column: 2;
+    background-color: #f8fafc;
 }
 
 .projects {
@@ -206,6 +204,14 @@ body {
     background-color: #ffffff;
     padding:20px;
     border-radius:8px;
+}
+
+.announcement {
+    padding-bottom: 15px;
+}
+
+.announcement-list {
+    margin-top:20px;
 }
 
 .trending {
