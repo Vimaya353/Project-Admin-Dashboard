@@ -192,6 +192,12 @@ body {
     color:#555;
 }
 
+.project-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+}
+
 .announcements {
     grid-column: 2;
     grid-row: 1;
