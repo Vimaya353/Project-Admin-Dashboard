@@ -36,6 +36,9 @@ body {
 .sidebar li {
     margin-bottom:15px;
     font-size:18px;
+    display:flex;
+    align-items:center;
+    gap:12px;
 }
 .header {
     grid-column: 2;
@@ -47,8 +50,15 @@ body {
     background-color: #f8fafc;
 }
 
+.logo {
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
 .logo h1 {
-    font-size:24px;
+    font-size:26px;
+    font-weight:600;
 }
 
 .navigation {
@@ -57,4 +67,10 @@ body {
 
 .secondary-navigation {
     margin-bottom:20px;
+}
+
+.icon {
+    width:24px;
+    text-align:center;
+    font-size:20px;
 }
