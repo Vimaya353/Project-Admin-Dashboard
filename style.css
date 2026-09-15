@@ -207,7 +207,12 @@ body {
 }
 
 .announcement {
-    padding-bottom: 15px;
+    padding-bottom: 15px 0;
+    border-bottom: 1px solid #cbd5e1;
+}
+
+.announcement:last-child {
+    border-bottom: none;
 }
 
 .announcement-list {
