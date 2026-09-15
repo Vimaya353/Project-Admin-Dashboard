@@ -230,3 +230,23 @@ body {
 .trending-list {
     margin-top:20px;
 }
+
+.trending-user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+}
+
+.trending-avatar {
+    font-size: 35px;
+}
+
+.trending-user h3 {
+    font-size: 15px;
+}
+
+.trending-user p {
+    font-size: 14px;
+    color: #64748b;
+}
