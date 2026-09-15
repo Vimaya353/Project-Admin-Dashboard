@@ -1,206 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Admin Dashboard</title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css"
+    >
 </head>
+
 <body>
 
     <div class="container">
 
+  
+
         <aside class="sidebar">
+
             <div class="logo">
+                <span class="mdi mdi-view-dashboard"></span>
                 <h1>Dashboard</h1>
             </div>
 
             <nav class="navigation">
                 <ul>
-                    
-                     <li><span class="icon mdi mdi-home"></span>Home</li>
-                     <li><span class="icon mdi mdi-account"></span>Profile</li>
-                     <li><span class="icon mdi mdi-email"></span>Messages</li>
-                     <li><span class="icon mdi mdi-clock-outline"></span>History</li>
-                     <li><span class="icon mdi mdi-check-circle-outline"></span>Tasks</li>
-                     <li><span class="icon mdi mdi-account-group"></span>Communities</li>
-                    
+
+                    <li>
+                        <span class="icon mdi mdi-home"></span>
+                        Home
+                    </li>
+
+                    <li>
+                        <span class="icon mdi mdi-account"></span>
+                        Profile
+                    </li>
+
+                    <li>
+                        <span class="icon mdi mdi-message"></span>
+                        Messages
+                    </li>
+
+                    <li>
+                        <span class="icon mdi mdi-clock-outline"></span>
+                        History
+                    </li>
+
+                    <li>
+                        <span class="icon mdi mdi-check-circle-outline"></span>
+                        Tasks
+                    </li>
+
+                    <li>
+                        <span class="icon mdi mdi-account-group"></span>
+                        Communities
+                    </li>
+
                 </ul>
             </nav>
 
             <nav class="secondary-navigation">
                 <ul>
-                    <li><span class="icon mdi mdi-settings"></span>Settings</li>
-                    <li><span class="icon mdi mdi-help-circle"></span>Support</li>
-                    <li><span class="icon mdi mdi-lock"></span>Privacy</li>
+
+                    <li>
+                        <span class="icon mdi mdi-cog"></span>
+                        Settings
+                    </li>
+
+                    <li>
+                        <span class="icon mdi mdi-help-circle"></span>
+                        Support
+                    </li>
+
+                    <li>
+                        <span class="icon mdi mdi-shield-lock"></span>
+                        Privacy
+                    </li>
+
                 </ul>
             </nav>
+
         </aside>
 
+
         <header class="header">
-          
+
             <div class="top-row">
-                
-                <div class="search-icon mdi mdi-magnify">
-                    <span class="search-icon">🔍</span>
-                    <input type="text" placeholder="Search...">
+
+                <div class="search">
+
+                    <span class="search-icon mdi mdi-magnify"></span>
+
+                    <input
+                        type="text"
+                        placeholder="Search..."
+                    >
+
                 </div>
 
                 <div class="user-info">
-                    <span class="notification mdi mdi-bell">🔔</span>
-                    <span class="username">Vimaya</span>
+
+                    <span class="notification mdi mdi-bell"></span>
+
+                    <span class="username">
+                        Vimaya
+                    </span>
+
                 </div>
 
             </div>
 
-            
-                <div class="bottom-row">
 
-                    <div class="greeting">
-                        <span class="avatar mdi mdi-account-circle">👤</span>
+            <div class="bottom-row">
 
-                        <div>
-                            <p>Hi there,</p>
-                            <h2>Vimaya!</h2>
-                        </div>
+                <div class="greeting">
+
+                    <span class="avatar mdi mdi-account-circle"></span>
+
+                    <div>
+                        <p>Hi there,</p>
+                        <h2>Vimaya!</h2>
                     </div>
 
-                    <div class="actions">
-                        <button>New</button>
-                        <button>Upload</button>
-                        <button>Share</button>
-                    </div>
                 </div>
+
+
+                <div class="actions">
+
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+
+                </div>
+
+            </div>
 
         </header>
 
+
+
+
         <main class="main-content">
-            
-<section class="projects">
-    <h2>Your Projects</h2>
 
-    <div class="project-grid">
 
-        <div class="project-card">
-            <h3>Super Cool Project</h3>
-            <p>
-                This is a sample project description. It shows what your project is about.
-            </p>
-        </div>
+            <!-- PROJECTS -->
 
-        <div class="project-card">
-            <h3>Less Cool Project</h3>
-            <p>
-                Another sample project with a short description.
-            </p>
-        </div>
+            <section class="projects">
 
-        <div class="project-card">
-            <h3>Impossible App</h3>
-            <p>
-                A project that solves an interesting problem.
-            </p>
-        </div>
+                <h2>Your Projects</h2>
 
-        <div class="project-card">
-            <h3>Easy Peasy App</h3>
-            <p>
-                A simple application designed for everyday use.
-            </p>
-        </div>
+                <div class="project-grid">
 
-        <div class="project-card">
-            <h3>Ad Blocker</h3>
-            <p>
-                A useful project for improving the browsing experience.
-            </p>
-        </div>
 
-        <div class="project-card">
-            <h3>Money Maker</h3>
-            <p>
-                A project focused on managing money and finances.
-            </p>
-        </div>
+                    <div class="project-card">
 
-    </div>
+                        <div>
+                            <h3>Super Cool Project</h3>
 
-</section>
+                            <p>
+                                This is a sample project description.
+                                It shows what your project is about.
+                            </p>
+                        </div>
+
+                        <div class="project-actions">
+                            <span class="mdi mdi-star-outline"></span>
+                            <span class="mdi mdi-eye-outline"></span>
+                            <span class="mdi mdi-source-fork"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-card">
+
+                        <div>
+                            <h3>Less Cool Project</h3>
+
+                            <p>
+                                Another sample project with a short
+                                description.
+                            </p>
+                        </div>
+
+                        <div class="project-actions">
+                            <span class="mdi mdi-star-outline"></span>
+                            <span class="mdi mdi-eye-outline"></span>
+                            <span class="mdi mdi-source-fork"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-card">
+
+                        <div>
+                            <h3>Impossible App</h3>
+
+                            <p>
+                                A project that solves an interesting
+                                problem.
+                            </p>
+                        </div>
+
+                        <div class="project-actions">
+                            <span class="mdi mdi-star-outline"></span>
+                            <span class="mdi mdi-eye-outline"></span>
+                            <span class="mdi mdi-source-fork"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-card">
+
+                        <div>
+                            <h3>Easy Peasy App</h3>
+
+                            <p>
+                                A simple application designed for
+                                everyday use.
+                            </p>
+                        </div>
+
+                        <div class="project-actions">
+                            <span class="mdi mdi-star-outline"></span>
+                            <span class="mdi mdi-eye-outline"></span>
+                            <span class="mdi mdi-source-fork"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-card">
+
+                        <div>
+                            <h3>Ad Blocker</h3>
+
+                            <p>
+                                A useful project for improving the
+                                browsing experience.
+                            </p>
+                        </div>
+
+                        <div class="project-actions">
+                            <span class="mdi mdi-star-outline"></span>
+                            <span class="mdi mdi-eye-outline"></span>
+                            <span class="mdi mdi-source-fork"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-card">
+
+                        <div>
+                            <h3>Money Maker</h3>
+
+                            <p>
+                                A project focused on managing money
+                                and finances.
+                            </p>
+                        </div>
+
+                        <div class="project-actions">
+                            <span class="mdi mdi-star-outline"></span>
+                            <span class="mdi mdi-eye-outline"></span>
+                            <span class="mdi mdi-source-fork"></span>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </section>
+
+
+           
 
             <section class="announcements">
+
                 <h2>Announcements</h2>
 
                 <div class="announcement-list">
 
                     <div class="announcement">
-                        <h3>Site Maintainance</h3>
-                        <p>The dashboard will be undergoing maintenance soon.</p>
+
+                        <h3>Site Maintenance</h3>
+
+                        <p>
+                            The dashboard will be undergoing
+                            maintenance soon.
+                        </p>
+
                     </div>
 
+
                     <div class="announcement">
+
                         <h3>Community Share Day</h3>
+
                         <p>
-                            Join our community to share your projects and ideas with others.
+                            Join our community to share your projects
+                            and ideas with others.
                         </p>
+
                     </div>
 
+
                     <div class="announcement">
+
                         <h3>Updated Privacy Policy</h3>
+
                         <p>
-                            We have made some updates to our privacy policy. Please review the changes.
+                            We have made some updates to our privacy
+                            policy. Please review the changes.
                         </p>
+
                     </div>
+
                 </div>
 
             </section>
 
+
+           
+
             <section class="trending">
+
                 <h2>Trending</h2>
 
-                    <div class="trending-list">
+                <div class="trending-list">
 
-                        <div class="trending-user">
-                            <span class="trending-avatar">👤</span>
 
-                            <div>
-                                <h3>@tegan</h3>
-                                <p>World Peace Builder</p>
-                            </div>
-                        </div>
+                    <div class="trending-user">
 
-                        <div class="trending-user">
-                            <span class="trending-avatar">👤</span>
+                        <span class="trending-avatar mdi mdi-account-circle"></span>
 
-                            <div>
-                                <h3>@morgan</h3>
-                                <p>Super Cool Project</p>
-                            </div>
-                        </div>
-
-                        <div class="trending-user">
-                            <span class="trending-avatar">👤</span>
-
-                            <div>
-                                <h3>@kendall</h3>
-                                <p>Life Changing App</p>
-                            </div>
-                        </div>
-
-                        <div class="trending-user">
-                            <span class="trending-avatar">👤</span>
-
-                            <div>
-                                <h3>@alex</h3>
-                                <p>No Traffic Maker</p>
-                            </div>
+                        <div>
+                            <h3>@tegan</h3>
+                            <p>World Peace Builder</p>
                         </div>
 
                     </div>
+
+
+                    <div class="trending-user">
+
+                        <span class="trending-avatar mdi mdi-account-circle"></span>
+
+                        <div>
+                            <h3>@morgan</h3>
+                            <p>Super Cool Project</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="trending-user">
+
+                        <span class="trending-avatar mdi mdi-account-circle"></span>
+
+                        <div>
+                            <h3>@kendall</h3>
+                            <p>Life Changing App</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="trending-user">
+
+                        <span class="trending-avatar mdi mdi-account-circle"></span>
+
+                        <div>
+                            <h3>@alex</h3>
+                            <p>No Traffic Maker</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
             </section>
 
         </main>
+
     </div>
 
 </body>
+
 </html>
